@@ -1,0 +1,71 @@
+
+/* ===== ESTILOS PRINCIPALES ================== */
+
+/* 1. Asignar margen de 20px y fuente Verdana al body */
+body {
+    background-color: black;
+    color: white !important;
+    font-family: Verdana, sans-serif;
+    margin: 20px;
+}
+
+/* 2. Selector multiple para párrafos y label - Fuente Tahoma */
+p, label {
+    font-family: Tahoma, sans-serif;
+}
+
+/* 3. Selector de etiqueta textarea - Ancho 200px */
+textarea {
+    width: 200px;
+}
+
+/* 4. Selector de input con name="email" - Fondo #eeeeee */
+input[name="email"] {
+    background-color: #eeeeee;
+}
+
+/* ===== ESTILOS ADICIONALES ================== */
+
+
+h1 {
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+a {
+    color: inherit;
+}
+
+div {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+/* Estilos para formularios */
+input, select, textarea {
+    border: 1px solid #555;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #00f5a0;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 8px 20px;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    background-color: #00cc88;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    accent-color: #00f5a0;
+}
+
+/* Color del texto de los label */
+label {
+    color: white;
+}
